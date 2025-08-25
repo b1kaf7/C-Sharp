@@ -2,6 +2,7 @@ using System;
 
 namespace StudentManagementSystem
 {
+    
     class Student
     {
         public int StudentID { get; set; }
