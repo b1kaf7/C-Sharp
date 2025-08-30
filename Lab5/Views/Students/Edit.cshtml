@@ -1,0 +1,19 @@
+@model CRUD_MVC.Models.Student
+
+<h2>Edit Student</h2>
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div>
+        <label>Full Name</label>
+        <input asp-for="FullName" class="form-control" />
+    </div>
+    <div>
+        <label>Age</label>
+        <input asp-for="Age" class="form-control" />
+    </div>
+    <div>
+        <label>Address</label>
+        <input asp-for="Address" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
